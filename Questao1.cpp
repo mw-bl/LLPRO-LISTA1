@@ -5,19 +5,19 @@ int main(){
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	float n1, n2, n3, media;
 	
-	printf("Calculadora de Média entre 3 números \n\n");
+	printf("Calculadora de MÃ©dia entre 3 nÃºmeros \n\n");
 	
-	printf("Primeiro Número ");
+	printf("Primeiro NÃºmero ");
 	scanf("%f", &n1);
 	
-	printf("Segundo Número ");
+	printf("Segundo NÃºmero ");
 	scanf("%f", &n2);
 	
-	printf("Terceiro Número ");
+	printf("Terceiro NÃºmero ");
 	scanf("%f", &n3);
 	
-	media= (n1+n2+n3)/3
+	media= (n1+n2+n3)/3;
 	
-	printf("O valor calculado da média entre os números %f, %f e %f foi: %f", n1, n2, n3, media);
+	printf("O valor calculado da mÃ©dia entre os nÃºmeros %f, %f e %f foi: %f", n1, n2, n3, media);
 	return 0;
 }
